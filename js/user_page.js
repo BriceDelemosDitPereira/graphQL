@@ -52,7 +52,7 @@ export function show_user_info(data) {
   const section = document.createElement('section')
   section.id = 'profile-section'
   section.classList.add('vh-100')
-  //section.style.backgroundColor = '#508bfc'
+  section.style.overflow = 'auto'
 
   const container = document.createElement('div')
   container.classList.add('container', 'py-5', 'h-100')
