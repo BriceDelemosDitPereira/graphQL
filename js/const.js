@@ -28,7 +28,6 @@ export let user_info = {
             event {
               id
               createdAt
-              status
               endAt
               parentId
              }
